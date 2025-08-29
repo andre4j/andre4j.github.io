@@ -9,24 +9,25 @@
       "title": "Spring"
     },
     {
-      "image": "assets/images/index/technologies/quarkus.webp",
-      "title": "Quarkus"
+      "image": "assets/images/index/technologies/angular.webp",
+      "title": "Angular"
+    },
+    
+    {
+      "image": "assets/images/index/technologies/kafka.webp",
+      "title": "Kafka"
     },
     {
       "image": "assets/images/index/technologies/python.webp",
       "title": "Python"
     },
     {
-      "image": "assets/images/index/technologies/angular.webp",
-      "title": "Angular"
-    },
-    {
-      "image": "assets/images/index/technologies/kafka.webp",
-      "title": "Kafka"
-    },
-    {
       "image": "assets/images/index/technologies/docker.webp",
       "title": "Docker"
+    },
+    {
+      "image": "assets/images/index/technologies/terraform.webp",
+      "title": "Terraform"
     },
     {
       "image": "assets/images/index/technologies/aws.webp",
@@ -40,10 +41,7 @@
       "image": "assets/images/index/technologies/go.webp",
       "title": "Golang"
     },
-    {
-      "image": "assets/images/index/technologies/flutter.webp",
-      "title": "Flutter"
-    },
+    
     {
       "image": "assets/images/index/technologies/postgresql.webp",
       "title": "Postgresql"
@@ -51,6 +49,10 @@
     {
       "image": "assets/images/index/technologies/mongodb.webp",
       "title": "MongoDB"
+    },
+    {
+      "image": "assets/images/index/technologies/quarkus.webp",
+      "title": "Quarkus"
     },
     {
       "image": "assets/images/index/technologies/linux.webp",

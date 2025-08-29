@@ -109,13 +109,11 @@
 }
 
 .certified-cloud {
-  position: absolute;
-  z-index: 10;
-  left: 14rem;
   width: 13rem;
 }
 
 .aws-content {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,7 +162,7 @@
 }
 
 .content-title-text-technologies {
-  color: black;
+  color:rgba(50, 0, 116, 1);
   font-size: 1.2rem;
   font-weight: bold;
 }
