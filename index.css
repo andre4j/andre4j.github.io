@@ -1,12 +1,11 @@
 .banner-youtube {
   height: 20rem;
-  width: auto;
-  margin-top: 20px;
-
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  background:rgb(255, 255, 255);
+  background: rgba(235, 233, 255, 1);
   align-items: center;
   font-weight: bold;
   border-radius: 20px;
@@ -54,8 +53,8 @@
 
 .myvalues {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, auto);
   place-items: center;
   gap: 1rem;
 }
@@ -64,13 +63,28 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  text-align: justify;
-  height: 23rem;
+  text-align: left;
+  height: 5.2rem;
   width: 17rem;
   background: linear-gradient(to top, rgb(255, 199, 116), #fce3ab);
   padding: 1rem;
   border-radius: 10px;
   color: black;
+}
+
+.content-myvalues > p {
+  display: none;
+}
+
+.content-myvalues:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  height: auto;
+}
+
+.content-myvalues:hover > p {
+  display: block;
 }
 
 .content-title-myvalues {
@@ -83,8 +97,8 @@
 }
 
 .content-title-image-myvalues {
-  height: 6rem;
-  width: 5.5rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 .aws {
@@ -113,7 +127,7 @@
 }
 
 .aws-content {
-  color: white;
+  color: rgba(0, 0, 0, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,7 +152,7 @@
 .technologies {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(1, auto);
   place-items: center;
   gap: 1rem;
   padding: auto;
@@ -147,7 +161,7 @@
 
 .content-title-technologies {
   height: 4rem;
-  width: 13rem;
+  width: 12rem;
   background: linear-gradient(to left, #9c81ff 5%, #fce3ab);
   display: flex;
   flex-direction: row;
@@ -157,12 +171,19 @@
   border-radius: 10px;
 }
 
+.content-title-technologies:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  background: linear-gradient(to right, #9c81ff 5%, #fce3ab);
+}
+
 .content-title-image-technologies {
   height: 3rem;
 }
 
 .content-title-text-technologies {
-  color:rgba(50, 0, 116, 1);
+  color: rgba(32, 0, 92, 1);
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -248,7 +269,6 @@
     justify-content: center;
     gap: 2rem;
     color: white;
-    margin: auto;
     font-size: 1.2rem;
     font-weight: bold;
     margin: 3rem auto;
