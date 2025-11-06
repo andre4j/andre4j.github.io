@@ -5,44 +5,40 @@
       "title": "Python"
     },
     {
-      "image": "assets/images/index/technologies/fastapi.webp",
-      "title": "FastAPI"
+      "image": "assets/images/index/technologies/docker.webp",
+      "title": "Docker"
     },
     {
-      "image": "assets/images/index/technologies/azure.webp",
-      "title": "Azure"
-    },
-    {
-      "image": "assets/images/index/technologies/powerbi.webp",
-      "title": "PowerBI"
-    },
-    {
-      "image": "assets/images/index/technologies/sqlserver.webp",
-      "title": "SQLServer"
-    },
-    {
-      "image": "assets/images/index/technologies/excel.webp",
-      "title": "Excel"
+      "image": "assets/images/index/technologies/terraform.webp",
+      "title": "Terraform"
     },
     {
       "image": "assets/images/index/technologies/aws.webp",
       "title": "AWS"
     },
     {
-      "image": "assets/images/index/technologies/mongodb.webp",
-      "title": "Mongo"
-    },
-    {
-      "image": "assets/images/index/technologies/docker.webp",
-      "title": "Docker"
+      "image": "assets/images/index/technologies/go.webp",
+      "title": "Golang"
     },
     {
       "image": "assets/images/index/technologies/kafka.webp",
       "title": "Kafka"
     },
     {
+      "image": "assets/images/index/technologies/postgresql.webp",
+      "title": "Postgresql"
+    },
+    {
+      "image": "assets/images/index/technologies/mongodb.webp",
+      "title": "Mongo"
+    },
+    {
       "image": "assets/images/index/technologies/git.webp",
       "title": "Git"
+    },
+    {
+      "image": "assets/images/index/technologies/bash.webp",
+      "title": "Bash"
     }
   ]
 }
